@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>CTD - Front End I - Check Point II</title>
+</head>
+
+<body>
+    <header>
+        <img src="./image/cotia-logo.png" alt="logo prefeitura de cotia">
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a href="#">Cidade</a>
+                </li>
+                <li>
+                    <a href="#">Secretarias</a>
+                </li>
+                <li>
+                    <a href="#">Serviços</a>
+                </li>
+                <li>
+                    <a href="#">Fundo Social</a>
+                </li>
+                <li>
+                    <a href="#">Ouvidoria Geral</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+    <div class="container">
+        <div class="title">Conheça Cotia</div>
+            <form action="#">
+                <div class="tipo-usuario">
+                    <span class="voce-e">Você é?</span>
+                    <!--<span class="vem-para">Você vem para?</span>-->
+                        <div class="tipo">
+                                <div class="turista">
+                                    <input type="checkbox" id="turista">
+                                    <label for="turista">Turista</label>
+                                </div>
+                                <div class="residente">
+                                    <input type="checkbox" id="residente">
+                                    <label for="residente">Residente</label>
+                                </div>
+                                <div class="estudante">
+                                    <input type="checkbox" id="estudante">
+                                    <label for="estudante">Estudante</label>
+                                </div>
+                        </div>
+                </div>
+                <span class="pontos-tur">Pontos turísticos</span>
+                <!--<span class="pontos-turisticos">Pontos Turisticos</span>-->
+                <div class="pontos-interesse">
+                            <div class="lista-pontos1">
+                                <div class=pontos1>
+                                    <!--<img src="./image/templo-zulai.jpg" alt="">-->
+                                    <input type="checkbox" id="templo-zulai">
+                                    <label for="templo-zulai">Templo Zulai</label>
+                                </div>
+                                <div class=pontos1>
+                                    <!--<img src="./image/bicho-mania.jpg" alt=""><-->
+                                    <input type="checkbox" id="bicho-mania">
+                                    <label for="bicho-mania">Bicho Mania</label>
+                                </div>
+                                <div class=pontos1>
+                                    <!--<img src="./image/cia-dos-bichos.jpg" alt="">-->           
+                                    <input type="checkbox" id="cia-bichos">
+                                    <label for="cia-bichos">Cia dos Bichos</label>
+                                </div>
+                            </div>
+                            <div class="lista-pontos2">
+                                <div class=pontos2>
+                                    <!--<img src="./image/cidade-das-abelhas.jpg" alt="">-->
+                                    <input type="checkbox" id="cidade-abelhas">
+                                    <label for="cidade-abelhas">Cidade das Abelhas</label>
+                                </div>
+                                <div class=pontos2>
+                                    <!--<img src="./image/petzoo.jpg" alt="">-->
+                                    <input type="checkbox" id="pet-zoo">
+                                    <label for="pet-zoo">PetZoo</label>
+                                </div>
+                                <div class=pontos2>
+                                    <!--<img src="./image/templo-odsaoling.jpg" alt="">-->
+                                    <input type="checkbox" id="templo-odsal-ling">
+                                    <label for="templo-odsal-ling">Templo Odsal Ling</label>
+                                </div>
+                            </div>
+                            <div class="lista-pontos3">
+                                <div class=pontos3>
+                                    <!--<img src="./image/cachoeira-gracas.jpg" alt="">-->
+                                    <input type="checkbox" id="cachoeira-gracas">
+                                    <label for="cachoeira-gracas">Cachoeira das Graças</label>
+                                </div>
+                                <div class=pontos3>
+                                    <!--<img src="./image/vila-coelhos.jpg" alt="">-->
+                                    <input type="checkbox" id="vila-coelhos">
+                                    <label for="vila-coelhos">Vila dos Coelhos</label>
+                                </div>
+                            </div>
+                </div>
+                <span class="seus-dados">Seus dados<span>
+                <div class="user-details">
+                    
+                    <div class="input-box">
+                        <span class="details">Nome completo</span>
+                        <input type="text" placeholder="digite seu nome" maxlength="100" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">E-mail</span>
+                        <input type="email" placeholder="digite seu e-mail" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Telefone</span>
+                        <input type="number" placeholder="11912345678" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Data Nasc.</span>
+                        <input type="date" required>
+                    </div>
+                </div>
+                <div class="idades">
+                    <input type="radio" class="idade" name="idade" id="opc-1">
+                    <input type="radio" class="idade" name="idade" id="opc-2">
+                    <span class="maioridade">Idade</span>
+                    <div class="maior">
+                        <label for="opc-1">
+                            <span class="opc um"></span>
+                                <span class="idade">Maior de 18 anos</span>
+                        </label>
+                        <label for="opc-2">
+                            <span class="opc dois"></span>
+                                <span class="idade">Menor de 18 anos</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="button">
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Redefinir">
+                </div>
+        </form>
+    </div>
+    </main>
+</body>
+</html>
